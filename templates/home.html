@@ -12,9 +12,7 @@
   </form>
   {% if converted %}
   <h2>Converted</h2>
-  <pre>
-  {{ converted }}
-  </pre>
+  <textarea readonly='readonly', rows=50 cols=100 onclick="this.focus();this.select();document.execCommand('copy')">{{ converted }}</textarea>
   {% endif %}
 </body>
 </html>
