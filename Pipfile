@@ -10,6 +10,7 @@ jedi = "==0.17.2"
 [packages]
 markdownify = "==0.5.3"
 flask = "==1.1.2"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
